@@ -4,29 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de502ed2-1198-4af9-b4fa-15729a30ed47" name="Changes" comment="Base2">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/migrations/0002_satellite_arg_of_pericenter_satellite_bstar_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/templates/table/countries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/templates/table/satellites.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/table/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.Docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="de502ed2-1198-4af9-b4fa-15729a30ed47" name="Changes" comment="must dock, code ok">
+      <change afterPath="$PROJECT_DIR$/AtomSpace/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/README.Docker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/postgres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomSpace/AtomSpace/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/AtomSpace/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtomSpace/AtomSpace/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/AtomSpace/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomSpace/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtomSpace/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +87,22 @@
       <option name="project" value="LOCAL" />
       <updated>1714891111994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="must dock, code ok">
+      <option name="closed" value="true" />
+      <created>1714898279660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714898279660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Base" />
     <MESSAGE value="Base2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base2" />
+    <MESSAGE value="must dock, code ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="must dock, code ok" />
   </component>
 </project>
