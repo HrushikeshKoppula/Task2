@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S A T E L L I T E S</title>
+</head>
+<body>
+    <h1>S A T E L L I T E S</h1>
+    <ul>
+    {% for obj in satellite_objects %}
+        <li>{{ obj.OBJECT_NAME }}, {{ obj.OBJECT_ID }}, {{ obj.EPOCH }}, {{ obj.MEAN_MOTION }}, {{ obj.ECCENTRICITY }}, {{ obj.INCLINATION }}, {{ obj.RA_OF_ASC_NODE }}, {{ obj.ARG_OF_PERICENTER }}, {{ obj.MEAN_ANOMALY }}, {{ obj.EPHEMERIS_TYPE }}, {{ obj.CLASSIFICATION_TYPE }}, {{ obj.NORAD_CAT_ID }}, {{ obj.ELEMENT_SET_NO }}, {{ obj.REV_AT_EPOCH }}, {{ obj.BSTAR }}, {{ obj.MEAN_MOTION_DOT }}, {{ obj.MEAN_MOTION_DDOT }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

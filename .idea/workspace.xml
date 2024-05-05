@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="de502ed2-1198-4af9-b4fa-15729a30ed47" name="Changes" comment="Base">
-      <change afterPath="$PROJECT_DIR$/AtomSpace/AtomSpace/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AtomSpace/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="de502ed2-1198-4af9-b4fa-15729a30ed47" name="Changes" comment="Base2">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/migrations/0002_satellite_arg_of_pericenter_satellite_bstar_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/templates/table/countries.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/templates/table/satellites.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomSpace/table/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.Docker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomSpace/AtomSpace/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/AtomSpace/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomSpace/AtomSpace/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/AtomSpace/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtomSpace/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtomSpace/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/AtomSpace/templates/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +44,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2g2LdBalCueJi0B5maUtTO15kwT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,14 +55,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714890925383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Base2">
+      <option name="closed" value="true" />
+      <created>1714891111994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714891111994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base" />
+    <MESSAGE value="Base2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base2" />
   </component>
 </project>

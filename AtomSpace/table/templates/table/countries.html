@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C O U N T R I E S</title>
+</head>
+<body>
+    <h1>C O U N T R I E S</h1>
+    <ul>
+    {% for obj in country_objects %}
+        <li>{{ obj.name }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
